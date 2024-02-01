@@ -1,0 +1,9 @@
+streamlit
+streamlit-extras
+langchain
+huggingface-hub
+nltk
+scikit-learn
+wordcloud
+colorama
+seaborn
