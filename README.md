@@ -1,5 +1,10 @@
 # sms-spam-detection
 
+### conversion.py
+
+`conversion.py` is a module where has been defined a function useful to open an url of a file in format `.arff` and give us back a `.csv` file.
+This function has been used in the other two scripts: `Spam_detector.ipynb` and `spam_detection_app.py`.
+
 ### Spam_detector.ipynb
 
 In order to create a classifier capable of detecting whether a given message is spam or not, we structured the notebook `Spam_detector.ipynb` by not training a single classifier with only one type of Text Preprocessing. Instead, we tested various approaches and classification algorithms to compare different solutions.
@@ -13,3 +18,4 @@ In order to create a classifier capable of detecting whether a given message is 
 - In the penultimate section (section 4. Accuracy of the 20 classifiers), we decided to collect the accuracies of all trained classifiers to compare their performances.
 
 - Finally, we implemented a Hard Voting Strategy (section 5. Handling Class Imbalance) by training 7 classifiers on datasets with balanced classes. Combining the various outcomes, the most frequently returned result will be the final one.
+
