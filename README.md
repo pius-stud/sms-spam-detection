@@ -1,5 +1,7 @@
 # sms-spam-detection
 
+### Spam_detector.ipynb
+
 In order to create a classifier capable of detecting whether a given message is spam or not, we structured the notebook `Spam_detector.ipynb` by not training a single classifier with only one type of Text Preprocessing. Instead, we tested various approaches and classification algorithms to compare different solutions.
 
 - First, we imported the data (section 1. Data Import) and conducted a descriptive analysis.
