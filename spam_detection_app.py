@@ -38,7 +38,7 @@ from PIL import Image
 
 ##############
 # LLM
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "<INSERT_HERE_YOUR_TOKEN>"
 
 
 
